@@ -2,7 +2,7 @@ import os
 
 import google.generativeai as genai
 
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+genai.configure(api_key=os.environ["AIzaSyDqulTxWBc_cPYBnROjTy_5yKmbyUz8Uyk"])
 
 def upload_to_gemini(path, mime_type=None):
   """Uploads the given file to Gemini.
